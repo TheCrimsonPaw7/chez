@@ -13,3 +13,36 @@
     height:400px;
     width:98.3%;
 }
+
+.formdiv{
+    background:url("");
+    margin-top:-2rem;
+}
+
+.formitem{
+    display:flex;
+    flex-direction:column;
+    gap:1rem;
+    margin-bottom:2rem;
+}
+
+.formitem input{
+    font-size:20px;
+    padding:0.5rem;
+}
+
+.formitem label{
+    font-size:20px;
+    font-weight:500;
+    color:rgb(0, 0, 0);
+}
+
+.formitem button{
+    border:none;
+    padding:0.7rem 1.5rem;
+    color:black;
+    background:rgb(255, 234, 0);
+    font-size:20px;
+    font-weight:600;
+    border-radius:2rem;
+}
